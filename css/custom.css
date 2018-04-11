@@ -164,3 +164,7 @@ button {
 #spe-text {
     color: #00FFAD;
 }
+
+.right-margin {
+    margin-right: 30px;
+}
