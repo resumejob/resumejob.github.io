@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <title>重新规划你的职业生涯</title>
+    <title>程序员求职课程</title>
     <meta name="description" content="Free bootstrap template Atlas">
     <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
     <!-- custom.css -->
@@ -28,7 +28,7 @@
 
 <body>
     <!-- banner -->
-    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+    <div class="jumbotron jumbotron-fluid" id="hold-banner" style="background-image: url(img/banner-bk.jpg);">
         <div class="container text-center text-md-left">
             <header>
                 <div class="row justify-content-between">
@@ -44,33 +44,32 @@
                 </div>
             </header>
             <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
-            	重新规划你的<br>
-            	职业生涯
+            	程序员求职课程
             </h1>
             <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
-                对未来的职业规划感到迷茫？考虑跳槽却不知道如何准备面试？
-                <br> <span id="spe-text">简历完善，面试准备，职业规划</span>都可以交给我们
+                对未来的职业规划感到迷茫？想跳槽却不知道如何准备技术面试？
+                <br> <span id="spe-text">简历完善，技术面试，职业规划</span>都可以交给我们
             </p>
         </div>
     </div>
     <!-- three-blcok -->
-    <div class="container my-5 py-2">
+    <div class="container my-5 py-2" id="choose-us">
         <h2 id="why-us" class="text-center font-weight-bold my-5">为什么要选择我们？</h2>
         <div class="row">
             <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
                 <img src="img/smart-protect-1.jpg" alt="Anti-spam" class="mx-auto">
                 <h4>明星导师</h4>
-                <p>来自一线互联网企业的工程师以及HR，分享自己求职路上的体验和秘诀</p>
+                <p>来自一线互联网企业的工程师，分享自己求职路上的体验和秘诀</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
                 <img src="img/smart-protect-2.jpg" alt="Phishing Detect" class="mx-auto">
                 <h4>一对一指导</h4>
-                <p>通过通讯软体一对一分析求职者的优势和劣势，提出针对性地简历修改方案以及求职规划</p>
+                <p>针对求职者的优势和劣势，一对一提出改进的方案以及职业规划</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
                 <img src="img/smart-protect-3.jpg" alt="Smart Scan" class="mx-auto">
                 <h4>模拟面试</h4>
-                <p>真实地模拟面试加上事后及时反馈，让你以后遇到面试不再慌张。</p>
+                <p>导师们都有丰富的面试官经验，能够真实地模拟面试流程并给出反馈。</p>
             </div>
         </div>
     </div>
@@ -79,17 +78,40 @@
         <div class="container my-5">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-4 offset-md-1">
-                    <h2 class="font-weight-bold">服务流程</h2>
-                    <p class="my-4">1. 简历分析</p>
-                    <p class="my-4">2. 个人优势劣势分析</p>
-                    <p class="my-4">3. 30分钟一对一沟通了解</p>
-                    <p class="my-4">4. 协助简历修改以及职业规划建议</p>
-                    <p class="my-4">5. 模拟真实面试（套餐二）</p>
-                    <p class="my-4">6. 面试反馈（套餐二）</p>
+                    <h2 class="font-weight-bold">基本套餐</h2>
+                    <hr>
+                    <b class="my-4">阶段一： 30分钟远程沟通</b>
+                    <p class="my-4">1. 了解用户工作背景以及项目内容</p>
+                    <p class="my-4">2. 提供职业规划方案</p>
+                    <p class="my-4">3. 简历分析以及改进建议</p>
+                    <b class="my-4">阶段二： 协助修改简历</b>
+                    <p class="my-4">1. 导师根据沟通内容修改简历</p>
+                    <p class="my-4">2. 用户对新版简历进行二次修改</p>
+                    <p class="my-4">3. 简历交给导师定稿</p>
                     <a href="#price-table" class="btn my-4 font-weight-bold atlas-cta cta-blue">更多详情</a>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
-                    <img src="img/feature-1.png" alt="Take a look inside" class="mx-auto d-block">
+                    <img src="img/eezy_15.png" alt="Take a look inside" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-4 offset-md-1">
+                    <h2 class="font-weight-bold">进阶套餐</h2>
+                    <hr>
+                    <b class="my-4">阶段一： 基本套餐</b>
+                    <p class="my-4">1. 包含基本套餐内容</p>
+                    <b class="my-4">阶段二： 模拟面试</b>
+                    <p class="my-4">1. 导师作为面试官提供一次模拟面试</p>
+                    <p class="my-4">2. 导师提供反馈以及建议</p>
+                    <a href="#price-table" class="btn my-4 font-weight-bold atlas-cta cta-blue">更多详情</a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                    <img src="img/eezy_21.png" alt="Take a look inside" class="mx-auto d-block">
                 </div>
             </div>
         </div>
@@ -99,15 +121,36 @@
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
-                    <h2 class="font-weight-bold">明星导师</h2>
-                    <p class="my-4">Windson Yang</p>
-                    <p class="my-4">曾任<a href="https://pupil-labs.com/"> Pupil Labs </a>柏林分公司工程师，曾任酷狗旗下软件工程师，筛选过千份简历，面试数百位工程师，同时是 CPython 和 Django 的开源贡献者 ，创立了<a href="http://www.enginego.org/" target="_blank"> EngineGo </a>, <a href="http://www.thankyouopensource.com/" target="_blank"> Thankyou-open-source </a>等组织。他的<a href="https://github.com/Windsooon" target="_blank"> Github </a> 和 <a href="https://windsooon.github.io/" target="_blank"> Blog </a></p>
+                    <h2 class="font-weight-bold">明星导师团</h2>
+                    <hr>
+                    <p class="my-4">Windson</p>
+                    <p class="my-4">CPython 和 Django 的开源贡献者 ，创立了<a href="http://www.enginego.org/" target="_blank"> EngineGo </a>，面试过数百位工程师，曾任 Pupil labs 和酷狗旗下软件工程师。</p>
                 </div>
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
-                    <img src="img/avatar_s.png" alt="Safe and reliable" class="mx-auto d-block" style="max-width: 250px;">
+                    <img src="img/avatar_s.png" alt="Safe and reliable" class="mx-auto d-block" style="max-width: 200px;">
                 </div>
             </div>
-            <hr>
+            <hr> <!-- end first engineer -->
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <p class="my-4">Lee</p>
+                    <p class="my-4">谷歌软件工程师，擅长C++，Java, Python，有丰富的面试官经验，参与过多个大型项目开发。</p>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/avatar_s2.png" alt="Safe and reliable" class="mx-auto d-block" style="max-width: 200px;">
+                </div>
+            </div>
+            <hr> <!-- end first engineer -->
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <p class="my-4">Keith</p>
+                    <p class="my-4">亚马逊软件工程师，擅长软件开发以及架构，对系统设计有丰富的经验。</p>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/avatar_s3.png" alt="Safe and reliable" class="mx-auto d-block" style="max-width: 200px;">
+                </div>
+            </div>
+            <hr> <!-- end first engineer -->
         </div>
     </div>
     <div class="jumbotron jumbotron-fluid feature" id="feature-comments" style="background: #f9f9f9">
@@ -115,11 +158,11 @@
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-12 flex-md-last">
                     <h2 class="font-weight-bold">用户评价</h2>
+                    <hr>
                     <p class="my-4">“很感谢Windson为我的简历优化和面试准备提供帮助。我是一年工作经验的小白，对于我来说，我觉得主要有这些，1、明确需求，例如我的职业规划是怎么样的，我需要去什么样的公司。2、为简历和面试加增益buff，根据自身目前的情况和需求，优化简历，以及如何更好的准备的面试。3、实战演练，通过模拟面试，给出更为具体的建议。最后，希望Windson越做越好，大家都能找到满意的工作。” ———— 杨先生（<b>拿到腾讯，shopee 以及 airwallex 的 offer</b>)
-                    <p class="my-4">“1. 对简历的修改非常细致到位，包括但不限于：逻辑，格式，排版，技术名词。2. 电话/视频沟通很有效果：一方面会帮助你确立找工作的目的以及职业规划，另一方面会指出现有知识体系结构伤的不足（比如算法能力，工作经验细节等）。3. 模拟面试很好：最重要的是可以查漏补缺，如果你本身知识体系已经到位，那么实际上也可以很好地增强你的信心，还可以指出一些面试方法的不足。” ———— 彭先生（<b>拿到微信，阿里以及头条的 offer，现已入职头条</b>)
+                    <p class="my-4">“对简历的修改非常细致到位，包括但不限于：逻辑，格式，排版，技术名词。电话/视频沟通很有效果：一方面会帮助你确立找工作的目的以及职业规划，另一方面会指出现有知识体系结构伤的不足（比如算法能力，工作经验细节等）。模拟面试很好：最重要的是可以查漏补缺，如果你本身知识体系已经到位，那么实际上也可以很好地增强你的信心，还可以指出一些面试方法的不足。” ———— 彭先生（<b>拿到微信，阿里以及头条的 offer，现已入职头条</b>)
                     <p class="my-4">感谢 Windson 为我的简历优化提供指导意见。他的指导不会简单粗暴地为我的简历增添技术亮点，而是引导我发现自身的亮点、修正简历格式从而令我学习到技术简历的编写技能。修改后的简历投递后，虽然面试邀请并不很多，但是 offer 获得率非常高。这应该就是简历内容上突出个人技能的优点（与缺点？）。总之，无论是出于花钱省力优化简历的目的，还是出于学习撰写简历这项技能的思路，Windson 的简历优化服务都是非常值得投资的项目。---- HasOn（<b>现已入职平安科技</b>）
                     <p class="my-4">“小哥还是很负责的，工作了很多年还是没有太多面试经验，也不太知道面试的套路，当然最根本原因还是自己接触的面太窄了，而且比较懈怠，虽然能满足工作要求，但是导致现在能选择的岗位很少。需要加强自己学习的深度和广度，持续进行学习。简历上要体现这一点，还有工作很多年需要加强自己的团队协作能力的体现。小哥介绍了一些课程，给简历定量凸显工作成果，缩减简历长度都是很实用的技巧，还要多准备要问的问题，和一些常见的套路问题。指导很到位，遇到的问题也能做出解答。不过我还没准备好，准备好了的朋友可以考虑升级套餐进行模拟面试。” ———— 郑先生</p>
-                    <p class="my-4">“Windson很认真负责，具体流程是先评估一下简历，然后约30分钟了解背景看有没有什么可以提升的，改完以后还要再review一遍，给出最后的意见。整个流程下来，Windson总共要对简历进行3次的逐行逐句评估修改。很值得一试，希望你们可以做的越来越好！” ---- 唲~</p>
                 </div>
             </div>
         </div>
@@ -129,19 +172,19 @@
         <h2 class="text-center font-weight-bold d-block mb-3">价格</h2>
       <div class="row">
         <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
-            <h4 class="my-4">模版</h4>
+            <h4 class="my-4">简历模版</h4>
             <p class="font-weight-bold">¥ <span class="display-2 font-weight-bold"><del>26</del> 19</span> / 3个</p>
             <ul class="list-unstyled">
                 <li>三个精心设计的 HTML 模版</li>
-                <li>通过热门招聘网站的正确显示测试</li>
-                <li>容易定制和版本控制</li>
-                <li><b>购买模版方式：请把 19元 转到支付宝账号 aison_ne@yahoo.com.cn，并在备注加上接收模版的邮箱，我们会在24小时内发送模版。（需具备基本的HTML模版修改能力）</b></li>
+                <li>通过了招聘网站的渲染显示测试</li>
+                <li>方便定制和版本控制</li>
+                <li><b>由于国内支付限制，购买模版方式请把 19元 转到支付宝账号 aison_ne@yahoo.com.cn，并在备注加上接收模版的邮箱，我们会在24小时内发送模版。（需具备基本的HTML模版修改能力）</b></li>
             </ul>
             <a href="#tem" class="btn my-4 font-weight-bold atlas-cta cta-ghost">预览</a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
             <h4 class="my-4">基本套餐</h4>
-            <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">398</span> / 次</p>
+            <p class="font-weight-bold">$ <span class="display-2 font-weight-bold">498</span> / 次</p>
             <ul class="list-unstyled">
                 <li>简历分析</li>
                 <li>一对一沟通</li>
@@ -152,33 +195,18 @@
         </div>
         <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
             <h4 class="my-4">进阶套餐</h4>
-            <p class="font-weight-bold">¥ <span class="display-2 font-weight-bold">598</span> / 次</p>
+            <p class="font-weight-bold">¥ <span class="display-2 font-weight-bold">698</span> / 次</p>
             <ul class="list-unstyled">
-                <li>简历分析</li>
-                <li>一对一沟通</li>
-                <li>职业规划建议</li>
-                <li>协助简历修改</li>
+                <li>包含基本套餐</li>
                 <li>一次模拟面试</li>
                 <li>面试反馈</li>
-            </ul>
-            <a href="#contact" class="btn my-4 font-weight-bold atlas-cta cta-green">马上报名</a>
-        </div>
-        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
-            <h4 class="my-4">Python 学习</h4>
-            <p class="font-weight-bold">¥ <span class="display-2 font-weight-bold">4299</span> / 10节课</p>
-            <ul class="list-unstyled">
-                <li>Python 基础</li>
-                <li>数据结构基础</li>
-                <li>常用模块</li>
-                <li>网络基础</li>
-                <li>开发框架基础</li>
-                <li>项目实战</li>
             </ul>
             <a href="#contact" class="btn my-4 font-weight-bold atlas-cta cta-green">马上报名</a>
         </div>
       </div> <!-- end row -->
     </div>
     <div class="jumbotron jumbotron-fluid" id="tem" style="text-align: center;">
+      <h2>模版预览</h2>
       <img src="img/all.jpg" alt="模版预览"/ style="margin: 0 auto;">
     </div>
     <!-- contact -->
@@ -191,10 +219,10 @@
                       1. 发送您的简历到 contact@osjobs.net（注意把姓名和电话等信息隐藏，同时请对我们的工程师友好点 :D）
                     </p>
                     <p class="my-4">
-                      2. 我们会告知你付款方式，付款成功后开始进行简历分析。
+                      2. 我们会告知你支付宝账号，付款成功后开始预约沟通时间。
                     </p>
                     <p class="my-4">
-                      3. 根据套餐进行后续服务。
+                      3. 根据套餐完成后续服务。
                     </p>
                 </div>
             </div>
@@ -208,7 +236,8 @@
                     Copyright © 2018 Windson Yang
                 </div>
             	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
-                    Template by Chen, Yi-Ya
+                    Template by Chen, Yi-Ya,
+                    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
                 </div>
             </div>
         </div>
