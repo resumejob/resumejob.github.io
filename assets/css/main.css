@@ -1930,7 +1930,6 @@ textarea {
 }
 
 .copyright p {
-  line-height: 60px;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -1942,4 +1941,32 @@ textarea {
 
 .copyright p a:hover {
   color: #3d60f4;
+}
+
+.new-icon {
+  color: white;
+  font-size: 40px;
+}
+
+.new-icon:hover {
+  color: rgb(61, 96, 244);
+}
+
+.down-icon {
+  font-size: 40px;
+  color: #222222;
+}
+
+.icon {
+  line-height: 70px;
+}
+
+.foot-logo {
+  color: white;
+  font-size: 20px;
+}
+
+.up-logo {
+  height: 40px;
+  line-height: 40px;
 }
